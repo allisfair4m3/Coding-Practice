@@ -30,6 +30,12 @@ Starting with DSA and Pandas Practice Questions
 
 ### What is __str__ and __repr__ ?
 
-    -   Understood the difference between both, where `__str__` is used for user readability 
-        compared to `__repr__` which is used for debugging purposes and represented in the 
+    -   Understood the difference between both, where `\_\_str\_\_` is used for user readability 
+        compared to `\_\_repr\_\_` which is used for debugging purposes and represented in the 
         same manner as the object would be created while coding.
+
+### Instance Method vs Static Method vs Class Method
+
+    -   Instance Method: accessed using instance of the class for operating on instances of the class
+    -   Static Method (Decorator `@staticmethod`): utility function accessed using Class but does not require instance/class data and can be used independently without `self` or `cls`
+    -   Class Method (Decorator `@classmethod`): accessed using Class to access or modify class variables
